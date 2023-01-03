@@ -1,0 +1,31 @@
+{
+    "name": "graphql-testing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "jest -o ./tests"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@graphql-tools/schema": "^8.3.1",
+        "express": "^4.17.2",
+        "express-graphql": "^0.12.0",
+        "graphql": "^15.0.0"
+    },
+    "devDependencies": {
+        "easygraphql-tester": "^6.0.1",
+        "eslint": "^8.7.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-graphql": "^4.0.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "graphql-schema-linter": "^2.0.1",
+        "jest": "^27.4.7",
+        "nodemon": "^2.0.15",
+        "supertest": "^6.2.2"
+    }
+}
